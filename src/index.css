@@ -1,13 +1,96 @@
 body {
+  background-color: #ddbea9;
+  color: #582f0e;
+  text-align: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h4{  
+    font-weight: 800;
+    font-size: 20px;
+    
+  }
+  table{ 
+    font-weight: bold;
+    padding-inline-start: 200px;
+  }
+  th{
+    font-weight: bold;
+    padding-inline: 100px;  
+  }
+  .crudWrapper{
+    font-weight: 800;
+  background-color: #cb997e;
+  border-radius: 20%;
+  width: 100%;
+  
+  
+  }
+  .btnEdit{
+    margin: 10px;
+    background-color: #8a5a44;
+    color: #f5ebe0;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 80px;
+    border-color: #a47148;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btnEdit :hover{
+  
+  
+    background-color: #cb997e;
+    
+  
+  }
+  .btnDelete{
+    background-color: #8a5a44;
+    color: #f5ebe0;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 80px;
+    border-color: #a47148;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btnDelete :hover{
+  
+    background-color: #cb997e;
+    
+    
+  }
+  .inputText{
+    margin: 15px;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    width: 97%;
+    border: none;
+    display: block  ;
+  
+  background-color: #f1e7dd;
+  border-radius: 10px;
+  height: 25px;
+  border: #f5ebe0;
+  }
+  .inputBtn{
+    margin: 5px;
+    font-weight: bold;
+    color: #582f0e;
+    width: 80px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1e7dd;
+    border-color: #ddbea9;
+  }

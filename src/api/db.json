@@ -1,0 +1,34 @@
+{
+    "people": [
+      {
+        "id": 1,
+        "name": "Mariantonieta",
+        "constellation": "Gemenis"
+      },
+      {
+        "id": 2,
+        "name": "Luisa",
+        "constellation": "Sagitario"
+      },
+      {
+        "id": 3,
+        "name": "Ricardo",
+        "constellation": "Leo"
+      },
+      {
+        "id": 4,
+        "name": "Luis",
+        "constellation": "Cancer"
+      },
+      {
+        "id": 5,
+        "name": "Andrea",
+        "constellation": "Gemenis"
+      },
+      {
+        "name": "Isaac",
+        "constellation": "Picis",
+        "id": 1645832526283
+      }
+    ]
+  }
